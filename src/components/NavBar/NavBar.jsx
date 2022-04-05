@@ -10,7 +10,7 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <NavLink to="/">
-        <h1>AppleStore</h1>
+        <h1>MobileApple</h1>
       </NavLink>
       <ul className="navLinks">
         <li>

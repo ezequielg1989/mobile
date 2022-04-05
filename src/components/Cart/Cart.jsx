@@ -52,7 +52,7 @@ const Cart = () => {
     <div className="divCart">
       {orderId && (
         <div className="cartCard">
-          <h1>Congratulations! Your order number is: {orderId}</h1>
+          <h1>Tu orden ya fue ingresada : {orderId}</h1>
         </div>
       )}
       {cart.length === 0 ? (
@@ -115,7 +115,7 @@ const Cart = () => {
           </div>
           <div className="cartCard">
             <form onSubmit={terminarCompra} className="formCompra">
-              <h2>Ingresar datos personales para la compra:</h2>
+              <h3>Ingresar datos personales para la compra:</h3>
 
               <input
                 type="text"
