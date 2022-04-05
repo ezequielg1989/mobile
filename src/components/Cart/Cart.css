@@ -1,0 +1,121 @@
+.divCart{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.cartCard{
+    width: 70%;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.cardProducto{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.imgCart{
+    width: 15%;
+}
+
+.imgCarrito{
+    width: 100%;
+    height: auto;
+    padding: 7px;
+}
+
+.descripcionCarrito{
+    width: 70%;
+    padding: 5px;
+}
+
+.boton{
+    width: 15%;
+}
+
+.botonEliminar{
+    width: 85%;
+    background-color: #c5361d;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.vaciarCarrito{
+    background-color: #c5361d;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.goShop{
+    text-decoration: underline;
+}
+
+.formCompra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.inputsForm{
+    height: 30px;
+    border: 1px solid #ced4da;
+  border-radius: 7px;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.botonComprar{
+    width: 50%;
+    background-color: #0071e3;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .cardProducto{
+        flex-direction: column;
+    }
+    .imgCart{
+        width: 50%;
+    }
+    .descripcionCarrito{
+        width: 90%;
+    }
+    .boton{
+        width: 40%;
+    }
+    .inputsForm{
+        width: 80%;
+    }
+}

@@ -1,0 +1,45 @@
+.itemCard{
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease-out;
+
+}
+
+.itemCard:hover{
+    backface-visibility: hidden;
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+.contenedorImg{
+    height: 80%;
+    overflow:hidden;
+}
+
+.imagen{
+    width: 150px;
+    height: auto;
+}
+
+.descItem{
+    height: 20%;
+    margin-bottom: 30px;
+}
+
+.linkDetalle{
+    background-color: #0071e3;
+    color: white;
+    border-radius: 8px;
+    padding: 4px 7px;
+}

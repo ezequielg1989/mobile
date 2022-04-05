@@ -1,0 +1,55 @@
+.productoCard{
+    width: 70%;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.imgContainer{
+    width: 50%;
+    padding: 10px;
+}
+
+.img{
+    width: 100px;
+    height: auto;
+}
+
+.descripcionContainer{
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.verCarrito{
+    background-color: #ff6a50;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 70%;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .productoCard{
+        flex-wrap: wrap;
+    }
+    .imgContainer{
+        width: 100%;
+    }
+    .descripcionContainer{
+        width: 100%;
+    }
+}
