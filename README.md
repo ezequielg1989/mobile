@@ -1,4 +1,4 @@
-## AppleStore project - Ecommerce
+## MobileStore project - Ecommerce
 
 App operation:
 
@@ -7,11 +7,11 @@ App operation:
 - Complete the form with your personal data
 - Buy it!
 
-![Video de funcionamiento de la App](https://media.giphy.com/media/yqeAN6didU6zYlWYMR/giphy.gif)
+
 
 ## Description
 
-This is my final project for the React course at CoderHouse.
+
 It is an e-commerce made with React, CSS and Firebase.
 
 ## Built with
@@ -29,6 +29,6 @@ It is an e-commerce made with React, CSS and Firebase.
 
 ## Deploy
 
-Open: [https://appstorevbayugar.netlify.app/](https://appstorevbayugar.netlify.app/)
+Open: []()
 
 _Last update: 02/20/2022._

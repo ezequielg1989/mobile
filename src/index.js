@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import 'animate.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
 ReactDOM.render(

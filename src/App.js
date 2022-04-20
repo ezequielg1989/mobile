@@ -14,7 +14,7 @@ function App() {
           <NavBar />
           <Switch>
             <Route exact path="/">
-              <ItemListContainer greeting="Welcome to AppleStore" />
+              <ItemListContainer greeting="Welcome to MobileStore" />
             </Route>
             <Route path="/detalle/:itemId">
               <ItemDetailContainer />

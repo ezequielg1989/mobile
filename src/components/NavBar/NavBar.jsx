@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import "./NavBar.css";
-import CartWidget from "../CartWidget/CartWidget";
 import { NavLink } from "react-router-dom";
 import { contexto } from "../../Context/CartContext";
 
@@ -10,25 +9,25 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <NavLink to="/">
-        <h2>MobileApple</h2>
+        <h2>MobileStore</h2>
       </NavLink>
       <ul className="navLinks">
         <li>
           <NavLink
-            to="/category/iphone13"
+            to="/category/Samsung"
             className="navLink negrita"
             activeClassName="currentCategory"
           >
-            Iphone 13
+            Samsung
           </NavLink>
         </li>
         <li>
           <NavLink
-            to="/category/iphone12"
+            to="/category/Motorola"
             className="navLink negrita"
             activeClassName="currentCategory"
           >
-            Iphone 12
+            Motorola
           </NavLink>
         </li>
         <li>
@@ -37,7 +36,7 @@ const NavBar = () => {
             className="navLink"
             activeClassName="currentCategory"
           >
-            <CartWidget />
+            <i className="bi bi-cart3"></i>
             <span className="negrita">({totalItemsCart()})</span>
           </NavLink>
         </li>

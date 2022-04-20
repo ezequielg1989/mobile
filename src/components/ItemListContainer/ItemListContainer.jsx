@@ -54,8 +54,8 @@ const ItemListContainer = ({ greeting }) => {
   }, [categoryId]);
 
   return (
-    <div className="main ">
-      <h2>{greeting}</h2>
+    <div className="main">
+      <h2 className="m-5">{greeting}</h2>
       <div className="itemListContainer animate__animated animate__fadeInUp">
         {loading ? <h1>Loading...</h1> : <ItemList products={products} />}
       </div>

@@ -67,24 +67,6 @@ const Cart = () => {
           <div className="cartCard">
             <h2>Total a pagar : ${total}</h2>
             {cart.map((i) => (
-              // <div key={i.id} className="cardProducto">
-              //   <div className="imgCart">
-              //     <img src={i.image} alt="" className="imgCarrito" />
-              //   </div>
-              //   <div className="descripcionCarrito">
-              //     <h4>{i.title}</h4>
-              //     <p>cantidad del producto: {i.cantidad}</p>
-              //     <p>Total: ${i.price * i.cantidad}</p>
-              //   </div>
-              //   <div className="boton">
-              //     <button
-              //       className="botonEliminar m-5"
-              //       onClick={() => removeItem(i.id)}
-              //     >
-              //       Eliminar
-              //     </button>
-              //   </div>
-              // </div>
               <div class="card mb-3 border-radius-25" key={i.id} >
                 <div class="row g-0">
                   <div class="col-md-4">
@@ -114,8 +96,8 @@ const Cart = () => {
             </button>
           </div>
           <div className="cartCard">
-            <form onSubmit={terminarCompra} className="formCompra">
-              <h3>Ingresar datos personales para la compra:</h3>
+            <form onSubmit={terminarCompra} className="formCompra m-5">
+              <h3 className="mb-4">Ingresar datos personales para la compra:</h3>
 
               <input
                 type="text"
