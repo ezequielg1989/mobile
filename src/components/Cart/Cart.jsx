@@ -65,17 +65,17 @@ const Cart = () => {
       ) : (
         <>
           <div className="cartCard">
-            <h2>Total a pagar : ${total}</h2>
+            <h4 className="mt-3">Total a pagar : ${total}</h4>
             {cart.map((i) => (
-              <div class="card mb-3 border-radius-25" key={i.id} >
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src={i.image} class="img-fluid rounded-start" alt="..."/>
+              <div className="card mb-4 border-radius-25" key={i.id} >
+                <div className="row ">
+                  <div className="col-md-4">
+                    <img src={i.image} className="img-fluid rounded-start" width={"150px"} alt="..."/>
                   </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">{i.title}</h5>
-                      <p class="card-text">{i.price}</p>
+                  <div className="col-md-8">
+                    <div className="card-body">
+                      <h5 className="card-title">{i.title}</h5>
+                      <p className="card-text">{i.price}</p>
                       <p>cantidad del producto: {i.cantidad}</p>
                       <p>Total: ${i.price * i.cantidad}</p>
                     </div>
